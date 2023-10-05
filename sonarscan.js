@@ -6,7 +6,7 @@ dotenv.config();
 scanner(
   {
     serverUrl: 'http://localhost:9000',
-    token: process.env.SONAR_TOKEN,
+      token: process.env.SONAR_TOKEN,
     options: {
       'sonar.projectName': process.env.SONAR_PROJECT_NAME,
       'sonar.projectDescription': 'Here I can add a description of my project',
